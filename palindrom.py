@@ -4,11 +4,12 @@ def palindrom(text):
   for i in range(0, length // 2):
       if (text[i] != text[length - i - 1]):
         return False
-      return True
+  return True
   
-wyraz1 = "potop"
-wyraz2 = "kajak"
-Wyraz3 = "łódź"
+  
+wyraz1 = "słoń"
+wyraz2 = "Kajak"
+Wyraz3 = "adwokatka"
 wyraz4 = "klawiatura"
 
 print(palindrom(wyraz1))
