@@ -1,4 +1,5 @@
 def palindrom(text):
+  text = text.lower()
   length = len(text)
   for i in range(0, length // 2):
       if (text[i] != text[length - i - 1]):
